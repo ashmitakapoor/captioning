@@ -79,11 +79,11 @@ def description_from_title(request: CaptionByTitle):
     """Get the caption for an image.
 
     Args:
-        image: The image to be captioned.
-        language: The language in which the caption should be returned.
+        title: The title for which description to be generated.
+        language: The language in which the description should be returned.
 
     Returns:
-        The caption for the image.
+        The description for the title.
     """
     PROJECT_ID = "vital-octagon-19612" # @param {type:"string"}
     LOCATION = "us-central1" # @param {type:"string"}
